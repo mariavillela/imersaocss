@@ -1,0 +1,45 @@
+/* Aula inicial :D */
+body {
+    backdrop-filter: blur(12px); /* Chrome and Opera */
+    /* background-image: url('https://cdn.pixabay.com/photo/2014/12/21/17/02/night-575008_960_720.jpg'); */
+    /* background-image: url('https://eneiasnagel.files.wordpress.com/2010/05/fundo.jpg'); */
+    background-image: url('https://www.anotaai.blog.br/wp-content/uploads/Flor-de-cerejeira-1.jpg');
+    background-size: auto 145vh;
+    font-family: Arial;  
+    height: 100vh;
+  }
+
+  .menu {
+      background-color: rgb(217, 225, 236);
+    } 
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    color: rgb(85,75,56);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+   color:  rgb(180, 33, 73); 
+ /* color:  rgb(219, 112, 147); */
+
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+   
+  }

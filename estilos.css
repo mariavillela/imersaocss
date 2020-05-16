@@ -1,4 +1,10 @@
 /* Aula inicial :D */
+/* reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
     backdrop-filter: blur(12px); /* Chrome and Opera */
     /* background-image: url('https://cdn.pixabay.com/photo/2014/12/21/17/02/night-575008_960_720.jpg'); */
@@ -7,10 +13,39 @@ body {
     background-size: auto 145vh;
     font-family: Arial;  
     height: 100vh;
+    font-size: 10px;
+  }
+
+
+  @media (min-width: 400px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    body {
+      font-size: 22px;
+    }
+  }
+
+
+  header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
   }
 
   .menu {
+      
       background-color: rgb(217, 225, 236);
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      
     } 
   
   .menu ul {
@@ -20,6 +55,12 @@ body {
   
   .menu li {
     list-style: none;
+  }
+
+  .menu a {
+      display: block;
+      padding: 10px 20px;
+
   }
   
   a {
@@ -41,5 +82,13 @@ body {
   
   .site-subtitle {
     font-style: italic;
+    font-size: 2em;
    
+  }
+
+  .img-portfolio {
+    height: 180px;
+    width: 180px;
+
+
   }

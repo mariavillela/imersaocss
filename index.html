@@ -4,40 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maria Villela</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Give+You+Glory&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6845ba0ae0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
+          <ul class="container">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portifolio">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-        <div>
+        <div class="titulo">
           <h1 class="site-title">Maria Lúcia Bento Villela</h1>
           <h2 class="site-subtitle">Associate Professor </h2>
         </div>
     </header>
-      <section>
-        <h2>Portfólio</h2>
-        <figure>
-          <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-          <figcaption>eCommerce</figcaption>
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="avatar">
+          <img src="https://scontent.fdti2-1.fna.fbcdn.net/v/t1.0-9/46422859_2383793294983680_5887611963302739968_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_ohc=43QwrhB8qjgAX8MfrSl&_nc_ht=scontent.fdti2-1.fna&oh=27654b33d0fc5f8916b8ef04d28ea6c3&oe=5EEC693D" alt="Maria Lúcia">
         </figure>
-        <figure>
-          <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-          <figcaption>Mobile</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-          <figcaption>Web design</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
-          <figcaption>Projetos pessoais</figcaption>
-        </figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, atque cupiditate porro voluptas expedita sit dolorem iusto similique quia labore in eaque mollitia tempora, at ipsum laborum! Corrupti, accusamus commodi.</p>
+        
+        <p>Optio, ad unde a fugiat dolores nemo veritatis perferendis beatae eveniet sequi quam numquam deserunt voluptas soluta aperiam. Dolorem natus debitis enim eaque culpa ipsam labore pariatur deserunt, tempora accusamus.</p>
+        
+        <p>Omnis laboriosam perferendis ut nostrum recusandae eaque, odit impedit dignissimos. Aliquam vitae unde inventore ad temporibus illum fugiat autem iure ipsam, repudiandae nihil dolores dolorem officia aliquid, porro explicabo quos!</p>
+        
+        <p>Este site foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a> ;-) 😀</p>
+    </section>
+      <section class="portifolio container" id="portifolio">
+        <h2>Projetos</h2>
+        <div class="grid">
+         
+          <div class="flip-card">
+            <div class="card">
+              <figure class="card-front">
+                <img class="img-portfolio" src="./img/docencia.jpg" alt="Docencia">
+                <figcaption>Docência</figcaption>
+              </figure>
+              <div class="card-back">
+                Olá! Eu sou a parte de trás!
+              </div>
+          </div>
+         </div>
+          
+         <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/pesquisa.jpeg" alt=">Pesquisa">
+              <figcaption>Pesquisa</figcaption>
+            </figure>
+            <div class="card-back">
+              Olá! Eu sou a parte de trás!
+            </div>
+          </div>
+         </div>
+          
+
+
+         
+          <figure>
+            <img class="img-portfolio" src="./img/familia.jpg" alt="Familia">
+            <figcaption>Família</figcaption>
+          </figure>
+          <figure>
+            <img class="img-portfolio" src="./img/pilates.png" alt="Pilates">
+            <figcaption>Pilates</figcaption>
+          </figure>
+        </div>
+        
       </section>  
+      <section class="contato container" id="contato">
+        <h2>Contato</h2>
+        <div class="grid icons">
+          <a target="_blank" href="https://github.com/mariavillela">
+            <i class="fab fa-github"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/MLuciaVillela">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/maria-villela/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:smvillela@gmail.com">
+            <i class="far fa-envelope-open"></i>
+          </a>
+        </div>
+      </section>
 </body>
 </html>
